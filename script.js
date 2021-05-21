@@ -18,4 +18,13 @@ newFunction();
 var newVar = 50;
 
 // String - sequence of characters
-var newSTr = "Hey! I am a string.";
+var newStr = "Hey! I am a string.";
+
+// Lenght of the string
+var newStr = "Hey String";
+var strLEnght = newStr.length;
+
+// Joining two strings -concat
+var string1 = "Hey";
+var string2 = "String";
+var string3 = string1.concat(string2);
