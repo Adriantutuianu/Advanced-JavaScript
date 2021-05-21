@@ -31,4 +31,6 @@ var string3 = string1.concat(string2);
 
 // Substring
 var myString = "I am in love with Strings.";
+// This will extract a string from the variable from position 5 upto length 7
 myString.substr(5, 7);
+// The above snippet will return "in love" - space is a character as well .
