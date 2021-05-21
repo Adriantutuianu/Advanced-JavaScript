@@ -5,3 +5,11 @@ function localFunction() {
 }
 // call the function
 localFunction();
+
+// Global scope
+var globalVar = 5;
+function newFunction() {
+  console.log(globalVar);
+}
+console.log(globalVar);
+newFunction();
