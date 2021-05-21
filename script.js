@@ -14,5 +14,8 @@ function newFunction() {
 console.log(globalVar);
 newFunction();
 
-// Hoisting
+// Hoisting-moving variable declaration to the top
 var newVar = 50;
+
+// String - sequence of characters
+var newSTr = "Hey! I am a string.";
