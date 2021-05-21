@@ -28,3 +28,7 @@ var strLEnght = newStr.length;
 var string1 = "Hey";
 var string2 = "String";
 var string3 = string1.concat(string2);
+
+// Substring
+var myString = "I am in love with Strings.";
+myString.substr(5, 7);
