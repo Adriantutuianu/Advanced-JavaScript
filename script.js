@@ -47,3 +47,9 @@ myString.toLowerCase(); //Convert to lowercase
 // Numbers
 var height = 5.62;
 var age = 19;
+
+// Rounding off the numbers
+// Example: To round off 3.142 upto two digits we write:
+var myNum = 3.142;
+myNum.toFixed(2);
+document.write(myNum);
