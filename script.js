@@ -13,3 +13,6 @@ function newFunction() {
 }
 console.log(globalVar);
 newFunction();
+
+// Hoisting
+var newVar = 50;
