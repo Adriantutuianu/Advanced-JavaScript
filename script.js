@@ -53,3 +53,10 @@ var age = 19;
 var myNum = 3.142;
 myNum.toFixed(2);
 document.write(myNum);
+
+document.write("<br>");
+
+// Converting a number to a string
+var myNum = 456;
+myNum.toString();
+document.write(myNum);
