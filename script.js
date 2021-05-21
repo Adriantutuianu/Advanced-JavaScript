@@ -43,3 +43,7 @@ myString.toUpperCase();
 document.write(myString);
 
 myString.toLowerCase(); //Convert to lowercase
+
+// Numbers
+var height = 5.62;
+var age = 19;
