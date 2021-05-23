@@ -86,3 +86,17 @@ myDate.getFullYear();
 var myDate = new Date();
 myDate.setFullYear(2025);
 console.log(myDate);
+
+// Dom- Document Object Model
+// Manipulate the content or the HTML using JavaScript
+
+// Accessing Elements in DOM :
+
+// Access using Tag Name
+document.getElementsByTagName("p");
+// Access using Class Name
+// To access the paragraph tag with a class newClass as shown above, we can write
+document.getElementsByClassName("newClass");
+// Access using the ID
+// We can access the <p> tag with the id that is assigned to it which is newId
+document.getElementById("newID");
