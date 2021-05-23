@@ -102,5 +102,6 @@ document.getElementById("newID");
 
 // Manipulating HTML elements using JavaScript
 
-// Writing HTML content
-document.getElementById("lone-p").innerHTML = "Here is some text for you!";
+// Writing HTML content- replace content
+
+document.getElementById("bold-me").innerHTML = "<b>Just like this</b>";
