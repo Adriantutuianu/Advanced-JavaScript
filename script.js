@@ -78,8 +78,11 @@ var Student = {
 // Operations on date
 var myDate = new Date(); // instance of the object
 myDate.getFullYear();
-console.log(myDate);
 //  Ex : getDate()    getDay()   getTime()    getFullYear()     getMonth()
 
 // to set the date
 // setData() setTime()  setFullYear()  setMonth()
+
+var myDate = new Date();
+myDate.setFullYear(2025);
+console.log(myDate);
