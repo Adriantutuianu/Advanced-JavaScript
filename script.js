@@ -105,3 +105,7 @@ document.getElementById("newID");
 // Writing HTML content- replace content
 
 document.getElementById("bold-me").innerHTML = "<b>Just like this</b>";
+
+// Create new element
+
+document.createElement("p");
