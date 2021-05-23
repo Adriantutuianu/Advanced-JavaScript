@@ -64,3 +64,13 @@ document.write(myNum);
 // Boolean variable
 var myBool = true;
 var newBool = false;
+
+// Object literal
+var Student = {
+  // first item
+  name: "Rahul",
+  // second item
+  class: 10,
+  // third item
+  roll_no: 45,
+};
