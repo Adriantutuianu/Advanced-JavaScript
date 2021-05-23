@@ -85,7 +85,6 @@ myDate.getFullYear();
 
 var myDate = new Date();
 myDate.setFullYear(2025);
-console.log(myDate);
 
 // Dom- Document Object Model
 // Manipulate the content or the HTML using JavaScript
@@ -100,3 +99,8 @@ document.getElementsByClassName("newClass");
 // Access using the ID
 // We can access the <p> tag with the id that is assigned to it which is newId
 document.getElementById("newID");
+
+// Manipulating HTML elements using JavaScript
+
+// Writing HTML content
+document.getElementById("lone-p").innerHTML = "Here is some text for you!";
