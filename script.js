@@ -74,3 +74,9 @@ var Student = {
   // third item
   roll_no: 45,
 };
+
+// Operations on date
+var myDate = new Date(); // instance of the object
+myDate.getFullYear();
+console.log(myDate);
+//  Ex : getDate()    getDay()   getTime()    getFullYear()     getMonth()
