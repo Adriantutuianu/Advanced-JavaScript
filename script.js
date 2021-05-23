@@ -60,3 +60,7 @@ document.write("<br>");
 var myNum = 456;
 myNum.toString();
 document.write(myNum);
+
+// Boolean variable
+var myBool = true;
+var newBool = false;
