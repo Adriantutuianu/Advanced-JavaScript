@@ -136,3 +136,6 @@ el.style.fontSize = "30px"; //This will make paragraph font - size 25px
 
 // Change the color
 el.style.color = "green";
+
+// Text invisible
+el.style.display = "none";
