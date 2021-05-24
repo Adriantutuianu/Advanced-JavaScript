@@ -124,3 +124,6 @@ divEl.removeChild(pEl); //This will remove paragraph element from division.
 // Setting an attribute
 var aEl = document.querySelector("a"); //This will access the anchor element
 aEl.setAttribute("href", "http://google.com"); //This will set a href attribute in the <a> tag.
+
+// Remove an attribute
+document.querySelector("a").removeAttribute("href");
