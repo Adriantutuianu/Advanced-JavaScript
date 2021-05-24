@@ -127,3 +127,7 @@ aEl.setAttribute("href", "http://google.com"); //This will set a href attribute 
 
 // Remove an attribute
 document.querySelector("a").removeAttribute("href");
+
+// Manipulating CSS using JavaScript
+var el = document.querySelector("h3"); //This will access the paragraph element
+el.style.fontSize = "30px"; //This will make paragraph font - size 25px
