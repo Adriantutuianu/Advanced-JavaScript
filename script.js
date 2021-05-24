@@ -109,3 +109,9 @@ document.getElementById("bold-me").innerHTML = "<b>Just like this</b>";
 // Create new element
 
 document.createElement("p");
+
+// Appending elements
+var newEl = document.createElement("p"); //This will create a new element and store it in a variable
+var someText = document.createTextNode("Some Text Here!"); //This will create some text for new element and store it in a variable
+var insertThis = newEl.appendChild(someText); // This will insert text into newly created p element and store it in a variable
+document.getElementById("meDiv").appendChild(insertThis); //This will insert the p element inside the present div.
