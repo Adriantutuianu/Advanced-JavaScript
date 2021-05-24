@@ -115,3 +115,12 @@ var newEl = document.createElement("p"); //This will create a new element and st
 var someText = document.createTextNode("Some Text Here!"); //This will create some text for new element and store it in a variable
 var insertThis = newEl.appendChild(someText); // This will insert text into newly created p element and store it in a variable
 document.getElementById("meDiv").appendChild(insertThis); //This will insert the p element inside the present div.
+
+// Remove an element
+var divEl = document.getElementById("thisDiv"); //This will access the division with specific ID name
+var pEl = document.getElementById("thisP"); //This will access the paragraph element
+divEl.removeChild(pEl); //This will remove paragraph element from division.
+
+// Setting an attribute
+var aEl = document.querySelector("a"); //This will access the anchor element
+aEl.setAttribute("href", "http://google.com"); //This will set a href attribute in the <a> tag.
