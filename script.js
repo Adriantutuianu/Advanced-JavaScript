@@ -226,3 +226,10 @@ const const_name = value; //syntax
 
 // Arrow function
 (parameters) => {}; //syntax
+
+// Template string
+let str = `Hey! String me.`; //syntax
+
+// ex
+let a = 5;
+let str1 = `I am ${a} years old.`;
