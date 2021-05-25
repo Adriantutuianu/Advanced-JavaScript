@@ -139,3 +139,13 @@ el.style.color = "green";
 
 // Background color change
 el.style.background = "yellow";
+
+// Similar we can change margin, padding, border , change alignment, etc.
+
+//Events
+onclick(); //This event  is fired when any HTML element is clicked.
+onload(); // This event is fired when the browser finishes loading the web page.
+onkeydown(); // This event occurs when any key on the keyboard is pressed.
+onmouseout(); //This event occurs when the pointer is moved out of any element.
+onmouseover(); //This event occurs when the pointer moves over any element.
+//  etc
