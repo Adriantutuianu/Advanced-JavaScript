@@ -153,4 +153,9 @@ onmouseover(); //This event occurs when the pointer moves over any element.
 // Attaching events to HTML elements
 function clicked() {
   alert("Oh!Clicked");
-}
+}  //First way
+
+var myBtn = document.querySelector("button");  // This will access the button element
+myBtn.addEventListener('click',function() {
+  alert("Oh!Clicked"); //This will add an event using proper method.
+} // Second way 
