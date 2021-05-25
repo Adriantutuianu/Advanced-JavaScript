@@ -185,3 +185,17 @@ history.forward() //Will take the navigation forward onto the next screen.
 window.location.href // it returns the URL of the current page.
 window.location.hostname // it returns the domain name of the website.
 window.location.protocol // it returns the protocol of the website
+
+// Cookies
+// JavaScript can read, create, modify and delete cookies. 
+document.cookie = "key=value"; //syntax
+
+// Deleting a cookie 
+document.cookie= "key:value"; 
+expires:"Date";
+
+// Read the cookies 
+var myCook = document.cookie;
+// The above will store a string containing all the information about 
+// cookies in the variable myCook which will be in the same key-value format.
+
