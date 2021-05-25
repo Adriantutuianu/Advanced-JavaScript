@@ -169,3 +169,10 @@ myBtn.removeEventListener('click'); //This will remove an event using proper met
 // Window size 
 window.innerHeight //Returns the innerHeight of the browser window
 window.innerWidth //returns the innerWidth of the browser window.
+
+// Screen object 
+// We can get the height, width, color depth, pixel depth and many more things using the screen object.
+
+// ex: 
+screen.height
+screen.width  // to find out the height and width
