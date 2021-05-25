@@ -143,59 +143,78 @@ el.style.background = "yellow";
 // Similar we can change margin, padding, border , change alignment, etc.
 
 //Events
-onclick(); //This event  is fired when any HTML element is clicked.
-onload(); // This event is fired when the browser finishes loading the web page.
-onkeydown(); // This event occurs when any key on the keyboard is pressed.
-onmouseout(); //This event occurs when the pointer is moved out of any element.
-onmouseover(); //This event occurs when the pointer moves over any element.
+// onclick() //This event  is fired when any HTML element is clicked.
+// onload(); // This event is fired when the browser finishes loading the web page.
+// onkeydown(); // This event occurs when any key on the keyboard is pressed.
+// onmouseout(); //This event occurs when the pointer is moved out of any element.
+// onmouseover(); //This event occurs when the pointer moves over any element.
 //  etc
 
 // Attaching events to HTML elements
 function clicked() {
   alert("Oh!Clicked");
-}  //First way
+} //First way
 
-var myBtn = document.querySelector("button");  // This will access the button element
-myBtn.addEventListener('click',function() {
+var myBtn = document.querySelector("button"); // This will access the button element
+myBtn.addEventListener("click", function () {
   alert("Oh!Clicked"); //This will add an event using proper method.
-} // Second way
+}); // Second way
 
-// Remove events from HTML elements 
-var myBtn = document.querySelector("button"); //This will access the button element
-myBtn.removeEventListener('click'); //This will remove an event using proper method
+// Remove events from HTML elements
+var removeEventButton = document.querySelector(".remove-event"); //This will access the button element
+removeEventButton.removeEventListener("click", function () {
+  alert("Event removed");
+}); //This will remove an event using proper method
 
-// Browser object model BOM 
+// Browser object model BOM
 
-// Window size 
-window.innerHeight //Returns the innerHeight of the browser window
-window.innerWidth //returns the innerWidth of the browser window.
+// Window size
+console.log("Inner Height " + window.innerHeight); //Returns the innerHeight of the browser window
+console.log("Inner width " + window.innerWidth); //returns the innerWidth of the browser window.
 
-// Screen object 
+// Screen object
 // We can get the height, width, color depth, pixel depth and many more things using the screen object.
 
-// ex: 
-screen.height
-screen.width  // to find out the height and width
+// ex:
+console.log("screen height " + screen.height);
+console.log(`screen width ${screen.width}`); // to find out the height and width
 
-// The history object 
-history.back() //The same with using the back button of the browser.
-history.forward() //Will take the navigation forward onto the next screen.
+// The history object
+history.back(); //The same with using the back button of the browser.
+history.forward(); //Will take the navigation forward onto the next screen.
 
-// the location object 
-window.location.href // it returns the URL of the current page.
-window.location.hostname // it returns the domain name of the website.
-window.location.protocol // it returns the protocol of the website
+// the location object
+console.log("window location " + window.location.href); // it returns the URL of the current page.
+console.log("window hostname " + window.location.hostname); // it returns the domain name of the website.
+console.log("window protocol " + window.location.protocol); // it returns the protocol of the website
 
 // Cookies
-// JavaScript can read, create, modify and delete cookies. 
+// JavaScript can read, create, modify and delete cookies.
 document.cookie = "key=value"; //syntax
 
-// Deleting a cookie 
-document.cookie= "key:value"; 
-expires:"Date";
+// Deleting a cookie
+document.cookie = "key:value";
+expires: "Date";
 
-// Read the cookies 
+// Read the cookies
 var myCook = document.cookie;
-// The above will store a string containing all the information about 
+// The above will store a string containing all the information about
 // cookies in the variable myCook which will be in the same key-value format.
 
+// Es6
+
+// let and const
+// In ES6, we can declare variables using let and const.
+// let is same as the var, except it is block scoped, unlike var.
+// When we learnt about scope we saw that a variable declared inside a function using var isn’t available outside the function.
+// But, a variable declared inside a block scope using var is still available outside the block.
+// For example:
+for (var count = 0; count < 5; count++) {
+  //some action
+  console.log(count);
+}
+
+for (let count = 0; count < 5; count++) {
+  //some action
+  console.log(count);
+}
