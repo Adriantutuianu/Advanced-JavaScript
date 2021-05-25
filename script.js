@@ -163,3 +163,9 @@ myBtn.addEventListener('click',function() {
 // Remove events from HTML elements 
 var myBtn = document.querySelector("button"); //This will access the button element
 myBtn.removeEventListener('click'); //This will remove an event using proper method
+
+// Browser object model BOM 
+
+// Window size 
+window.innerHeight //Returns the innerHeight of the browser window
+window.innerWidth //returns the innerWidth of the browser window.
