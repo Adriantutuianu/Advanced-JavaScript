@@ -149,3 +149,8 @@ onkeydown(); // This event occurs when any key on the keyboard is pressed.
 onmouseout(); //This event occurs when the pointer is moved out of any element.
 onmouseover(); //This event occurs when the pointer moves over any element.
 //  etc
+
+// Attaching events to HTML elements
+function clicked() {
+  alert("Oh!Clicked");
+}
