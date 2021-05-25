@@ -176,3 +176,7 @@ window.innerWidth //returns the innerWidth of the browser window.
 // ex: 
 screen.height
 screen.width  // to find out the height and width
+
+// The history object 
+history.back() //The same with using the back button of the browser.
+history.forward() //Will take the navigation forward onto the next screen.
