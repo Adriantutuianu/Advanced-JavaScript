@@ -158,4 +158,8 @@ function clicked() {
 var myBtn = document.querySelector("button");  // This will access the button element
 myBtn.addEventListener('click',function() {
   alert("Oh!Clicked"); //This will add an event using proper method.
-} // Second way 
+} // Second way
+
+// Remove events from HTML elements 
+var myBtn = document.querySelector("button"); //This will access the button element
+myBtn.removeEventListener('click'); //This will remove an event using proper method
