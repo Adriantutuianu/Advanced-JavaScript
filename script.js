@@ -218,3 +218,11 @@ for (let count = 0; count < 5; count++) {
   //some action
   console.log(count);
 }
+
+let variable_name = value; //syntax
+// let is the keyword , variable_name can be any valid variable name and value is the variable value.
+const const_name = value; //syntax
+// const is the keyword, const_name can be any valid variable name and value is the constant value .
+
+// Arrow function
+(parameters) => {}; //syntax
