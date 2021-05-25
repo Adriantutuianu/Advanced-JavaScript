@@ -219,9 +219,9 @@ for (let count = 0; count < 5; count++) {
   console.log(count);
 }
 
-let variable_name = value; //syntax
+// let variable_name = value;s //syntax
 // let is the keyword , variable_name can be any valid variable name and value is the variable value.
-const const_name = value; //syntax
+// const const_name = value; //syntax
 // const is the keyword, const_name can be any valid variable name and value is the constant value .
 
 // Arrow function
@@ -231,5 +231,5 @@ const const_name = value; //syntax
 let str = `Hey! String me.`; //syntax
 
 // ex
-let a = 5;
+let a = 3;
 let str1 = `I am ${a} years old.`;
