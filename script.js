@@ -180,3 +180,8 @@ screen.width  // to find out the height and width
 // The history object 
 history.back() //The same with using the back button of the browser.
 history.forward() //Will take the navigation forward onto the next screen.
+
+// the location object 
+window.location.href // it returns the URL of the current page.
+window.location.hostname // it returns the domain name of the website.
+window.location.protocol // it returns the protocol of the website
